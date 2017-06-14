@@ -11,6 +11,7 @@ Other features are Jquery based Like, Follow, Unfollow buttons, Comments and Not
 Install dependencies
 
 pip3 install -r requirements.txt
+
 Ensure that Redis is installed and running on port 6379 (default).
 
 Run these two commands in two separate terminals
