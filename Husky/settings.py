@@ -38,6 +38,18 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'basic',
+    #anonymous user
+    'imagekit',
+    'channels',
+    # compress image used for profile pic
+    'annoying',
+    #json response as order dict
+    'userprofile',
+    'posts',
+    'chat',
+    'comments',
+    'likes',
+    'notifications',
 
 ]
 
@@ -52,6 +64,16 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'Husky.urls'
+
+CHANNEL_LAYERS = {
+    "default": {
+        "BACKEND": "asgi_redis.RedisChannelLayer",
+        "CONFIG": {
+            "hosts": ["localhost:6379"],
+        },
+        "ROUTING": "Husky.routing.channel_routing",
+    },
+}
 
 TEMPLATES = [
     {
@@ -124,8 +146,6 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
 ]
-
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 MEDIA_URL = '/media/'

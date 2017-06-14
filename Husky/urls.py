@@ -20,7 +20,12 @@ from django.conf.urls.static import static
 
 
 urlpatterns = [
-    url(r'^admin/', admin.site.urls),
-    #include is imported above
+    url(r'^djangoadmin/', admin.site.urls),
     url(r'^', include('basic.urls')),
-]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+    url(r'^', include('comments.urls')),
+    url(r'^', include('chat.urls')),
+    url(r'^', include('likes.urls')),
+    url(r'^', include('notifications.urls')),
+    url(r'^', include('userprofile.urls')),
+    url(r'^', include('posts.urls')),
+ ]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
