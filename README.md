@@ -23,11 +23,7 @@ python3 manage.py runworker
 # Some Screenshots
 
 ![alt tag](https://github.com/sucide/Husky/raw/master/Screenshots/Screenshot%20from%202017-06-15%2000-25-57.png)
-![alt tag](https://github.com/sucide/Husky/raw/master/Screenshots/Screenshot%20from%202017-06-15%2000-26-32.png)
-![alt tag](https://github.com/sucide/Husky/raw/master/Screenshots/Screenshot%20from%202017-06-15%2000-26-49.png)
-![alt tag](https://github.com/sucide/Husky/raw/master/Screenshots/Screenshot%20from%202017-06-15%2000-28-18.png)
 ![alt tag](https://github.com/sucide/Husky/raw/master/Screenshots/Screenshot%20from%202017-06-15%2000-29-06.png)
-![alt tag](https://github.com/sucide/Husky/raw/master/Screenshots/Screenshot%20from%202017-06-15%2000-29-15.png)
 ![alt tag](https://github.com/sucide/Husky/raw/master/Screenshots/Screenshot%20from%202017-06-15%2000-29-24.png)
 ![alt tag](https://github.com/sucide/Husky/raw/master/Screenshots/Screenshot%20from%202017-06-15%2000-29-39.png)
 ![alt tag](https://github.com/sucide/Husky/raw/master/Screenshots/Screenshot%20from%202017-06-15%2000-29-53.png)
